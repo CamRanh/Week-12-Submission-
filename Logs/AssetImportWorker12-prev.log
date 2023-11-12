@@ -1,0 +1,722 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 49038 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2022.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker12
+-projectPath
+V:/Unbity Games/My project (1)
+-logFile
+Logs/AssetImportWorker12.log
+-srvPort
+60297
+Successfully changed project path to: V:/Unbity Games/My project (1)
+V:/Unbity Games/My project (1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [41836] Host "[IP] 169.254.166.255 [Port] 0 [Flags] 2 [Guid] 3528924720 [EditorId] 3528924720 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-T32B9SV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [41836] Host "[IP] 169.254.166.255 [Port] 0 [Flags] 2 [Guid] 3528924720 [EditorId] 3528924720 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-T32B9SV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 72.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.8f1 (b5eafc012955)
+[Subsystems] Discovering subsystems at path D:/Unity/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path V:/Unbity Games/My project (1)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.3734
+Initialize mono
+Mono path[0] = 'D:/Unity/2022.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004245 seconds.
+- Loaded All Assemblies, in  0.609 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.223 seconds
+Domain Reload Profiling: 832ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (148ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (315ms)
+		LoadAssemblies (94ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (313ms)
+			TypeCache.Refresh (312ms)
+				TypeCache.ScanAssembly (301ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (223ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (174ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (113ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.531 seconds
+Refreshing native plugins compatible for Editor in 2.69 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.490 seconds
+Domain Reload Profiling: 1021ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (331ms)
+		LoadAssemblies (237ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (118ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (491ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (357ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (275ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3089 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3551.
+Memory consumption went from 118.3 MB to 118.3 MB.
+Total: 3.296600 ms (FindLiveObjects: 0.365100 ms CreateObjectMapping: 0.150500 ms MarkObjects: 2.674000 ms  DeleteObjects: 0.105900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MovingObjects.cs: 9e0239f3bb68d6fcc282bd7679a06ef4 -> b85bf55f8cb023ff6965aef6945fd4e9
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 48ff13ede6c310cc0acf4a30e818a1de -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 91018.171662 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Health/frame-2.png
+  artifactKey: Guid(0d5ee5fbefde232408bd75d660fc7f28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Health/frame-2.png using Guid(0d5ee5fbefde232408bd75d660fc7f28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c983426f4a5bc9a289fc262760f8d35d') in 0.125546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Player_Shield/Shields_00014.png
+  artifactKey: Guid(e98ee970aef28fb42930cc09366b12d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Player_Shield/Shields_00014.png using Guid(e98ee970aef28fb42930cc09366b12d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd779704b0875da4808dec4c82fc0fa5') in 0.026593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Player_Shield/Shields_00015.png
+  artifactKey: Guid(b24a13c62e6b1dc459056c5fe4b2dc31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Player_Shield/Shields_00015.png using Guid(b24a13c62e6b1dc459056c5fe4b2dc31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e190bd3372765344b9e2bfb884022cf') in 0.029940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00021.png
+  artifactKey: Guid(6d9bd7d6b097ea4479ff27e9a95ba336) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00021.png using Guid(6d9bd7d6b097ea4479ff27e9a95ba336) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df5d445fe69052ef409a9b71003ddb38') in 0.028891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00077.png
+  artifactKey: Guid(73affaf788f61f147a86171ae7602b23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00077.png using Guid(73affaf788f61f147a86171ae7602b23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa834ded509ec417e4ecbb24de800881') in 0.021654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00005.png
+  artifactKey: Guid(cb756a995ac0dca48b41e010d661cdaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00005.png using Guid(cb756a995ac0dca48b41e010d661cdaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d81ecbd572f4a2b75c04b8999116584') in 0.021266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefab/Explosion.cs
+  artifactKey: Guid(f4b8089523403454fa3a0b2513befa94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Explosion.cs using Guid(f4b8089523403454fa3a0b2513befa94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a821412210959b5e0ea73dd5e73a7443') in 0.010835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00016.png
+  artifactKey: Guid(2196e835d9b42d647af1029a542e9973) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00016.png using Guid(2196e835d9b42d647af1029a542e9973) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '371f6a78bf1a032fdf84439d75de5b4a') in 0.026250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00056.png
+  artifactKey: Guid(2ff6fd16dde78674288d1b43dcd6b231) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00056.png using Guid(2ff6fd16dde78674288d1b43dcd6b231) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de923de621ea0d47771c60de7f9564cb') in 0.022848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Player_Shield/Shields_00008.png
+  artifactKey: Guid(6045ec0d5ba1baf41892366a58ee3652) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Player_Shield/Shields_00008.png using Guid(6045ec0d5ba1baf41892366a58ee3652) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '458fae7e3611c171e21ae796fa42641c') in 0.026366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00109.png
+  artifactKey: Guid(ba4bca3d60cccab4da8637a801a17c62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00109.png using Guid(ba4bca3d60cccab4da8637a801a17c62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '777ae949dcc4dcc033ee89321e4049f8') in 0.020795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00002.png
+  artifactKey: Guid(c780c6dafb9c5d84fbbe02d967f91cb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00002.png using Guid(c780c6dafb9c5d84fbbe02d967f91cb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf6a3b82fab9822cbdc8c806a3e26b58') in 0.019933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00023.png
+  artifactKey: Guid(c8d1f52caa6b2b94a8b283fb47bc2f3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00023.png using Guid(c8d1f52caa6b2b94a8b283fb47bc2f3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2cc292860ae536efde224f1633b6c068') in 0.020495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/BF-109E/Type-2/Type2_1.png
+  artifactKey: Guid(6c435814fd6b1f5469917a58c5022973) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/BF-109E/Type-2/Type2_1.png using Guid(6c435814fd6b1f5469917a58c5022973) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46305c7104bf9d80cd2730b69d885876') in 0.026534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Thruster/Thruster_00002.png
+  artifactKey: Guid(5d2e44be527f15c42adb29125f9deeae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Thruster/Thruster_00002.png using Guid(5d2e44be527f15c42adb29125f9deeae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c4ae5957434760f02bf3d96f8d72ab2') in 0.024467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Thruster/Thruster_00017.png
+  artifactKey: Guid(bfdcc28aaa5ce744bb3b951faa9dd34f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Thruster/Thruster_00017.png using Guid(bfdcc28aaa5ce744bb3b951faa9dd34f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb6854fcae12733c6c94077e5cd61a5b') in 0.024973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Thruster/Thruster_00010.png
+  artifactKey: Guid(6f9f69e64f1343b4694ca0012cb23eb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Thruster/Thruster_00010.png using Guid(6f9f69e64f1343b4694ca0012cb23eb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3059796d8a281573c44b4b07475caa42') in 0.024784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Thruster/Thruster_00007.png
+  artifactKey: Guid(4d546c8079e68fb439e2f77a0ef44cbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Thruster/Thruster_00007.png using Guid(4d546c8079e68fb439e2f77a0ef44cbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f879bb4be903c0e30396b8fc24899dc9') in 0.025723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Thruster/Thruster_00016.png
+  artifactKey: Guid(ee93afbe1edb9c343b21e59960956874) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Thruster/Thruster_00016.png using Guid(ee93afbe1edb9c343b21e59960956874) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4d3351cb962f882aed689ff37327adb') in 0.024831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Thruster/Thruster_00020.png
+  artifactKey: Guid(4e06056b2fa59b74a9ebbd668c5ad40d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Thruster/Thruster_00020.png using Guid(4e06056b2fa59b74a9ebbd668c5ad40d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4948833e20465d43bbf29cc5a10559d4') in 0.024845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Thruster/Thruster_00005.png
+  artifactKey: Guid(9f16e02ce09b3774da20c7d75dc5951e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Thruster/Thruster_00005.png using Guid(9f16e02ce09b3774da20c7d75dc5951e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4929c20da3abe28131667c5275583e96') in 0.025124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Thruster/Thruster_00004.png
+  artifactKey: Guid(d89ee7beac84c7c46922ff9a5b7b0b21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Thruster/Thruster_00004.png using Guid(d89ee7beac84c7c46922ff9a5b7b0b21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fadaab2be0eb53e56fe08d86439059e3') in 0.024030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52b3c8f9b4fcd03dddb659a535640837') in 0.018163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Thruster/Thruster_00001.png
+  artifactKey: Guid(d993d670d736d5f46a97a2daeec51ae1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Thruster/Thruster_00001.png using Guid(d993d670d736d5f46a97a2daeec51ae1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8dff062180927dce77023b4865d7f458') in 0.023831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Thruster/Thruster_00014.png
+  artifactKey: Guid(18c2dc48cf2e0574b9cfb6a5a0989748) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Thruster/Thruster_00014.png using Guid(18c2dc48cf2e0574b9cfb6a5a0989748) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5474699eb6bbd1ff7cedf9f114e1236a') in 0.025449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Thruster/Thruster_00006.png
+  artifactKey: Guid(6777d053c549bef408d1eb42fed22c71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Thruster/Thruster_00006.png using Guid(6777d053c549bef408d1eb42fed22c71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8d1b3a79dbfb16924fbfcf648dc368c') in 0.027527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00060.png
+  artifactKey: Guid(c7948a043c312824b9327cb13a6df22b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00060.png using Guid(c7948a043c312824b9327cb13a6df22b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22ece183cc2487f2b4ce77c01be5d596') in 0.031857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Thruster/Thruster_00013.png
+  artifactKey: Guid(127e7152676567845a394127181da872) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Thruster/Thruster_00013.png using Guid(127e7152676567845a394127181da872) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0a8fc0426764fd19fa9a51462074711') in 0.036011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefab/EnemyOne.prefab
+  artifactKey: Guid(17d8fcb5b4327e9438b5ec45a1858a91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/EnemyOne.prefab using Guid(17d8fcb5b4327e9438b5ec45a1858a91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db2cb9742d0e6f00c07091879eed2cbc') in 0.026153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00115.png
+  artifactKey: Guid(2b8de9091c6b3bf4f8f739ae361b2f8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00115.png using Guid(2b8de9091c6b3bf4f8f739ae361b2f8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '090701ac2e0de41b28eec04eeae810ff') in 0.020967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00043.png
+  artifactKey: Guid(0b012140818367c45b95f32398fca3c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00043.png using Guid(0b012140818367c45b95f32398fca3c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57a3825a769bf084381eb11f7163ebb8') in 0.020488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00069.png
+  artifactKey: Guid(6cbbd4a3b7630ec41b4133204fbc4993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00069.png using Guid(6cbbd4a3b7630ec41b4133204fbc4993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '620e25e243dd6390fe8a284dbeb36c7f') in 0.023589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/JU-87B2/Type_2/JU87B2 -progress_5.png
+  artifactKey: Guid(1ec9f742915fb9f459a619cc131f62ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/JU-87B2/Type_2/JU87B2 -progress_5.png using Guid(1ec9f742915fb9f459a619cc131f62ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f50d565d1e8841818555f6ddc8cfbbf') in 0.025059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00031.png
+  artifactKey: Guid(49cf453465b96cc428f1555ef9a364c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Explosion/Explosion_00031.png using Guid(49cf453465b96cc428f1555ef9a364c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8800ec7c566d31edf18826550e6db4bd') in 0.019875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/TBM3/Type_3/type_3.png
+  artifactKey: Guid(9bf47007ddd50d34f95e17946b09f23c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/TBM3/Type_3/type_3.png using Guid(9bf47007ddd50d34f95e17946b09f23c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0f25295174205a19dd66240144fb0b6') in 0.026303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/Bipolar Plane/Type_2/Animation/2.png
+  artifactKey: Guid(6c2f175a0acbd834e906fecf3d8967f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/Bipolar Plane/Type_2/Animation/2.png using Guid(6c2f175a0acbd834e906fecf3d8967f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f149e37410d95777fd035a7d5f825c9f') in 0.023541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/TBM3/Type_1/TBM-3.png
+  artifactKey: Guid(4e377b7899a69db47ab17a0e96e7ac66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/TBM3/Type_1/TBM-3.png using Guid(4e377b7899a69db47ab17a0e96e7ac66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bffac319c7381472af7c7ffa0d981627') in 0.026108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/BF-109E/Type-1/Animation/2.png
+  artifactKey: Guid(c867af58e70fa8c4f95132e11703e8f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/BF-109E/Type-1/Animation/2.png using Guid(c867af58e70fa8c4f95132e11703e8f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '39851e06e8e6bc1c7c0a2b96a209155b') in 0.026801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/Bipolar Plane/Type_6/Animation/3.png
+  artifactKey: Guid(a7cf5ab491c4ca44291385ea87d0705f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/Bipolar Plane/Type_6/Animation/3.png using Guid(a7cf5ab491c4ca44291385ea87d0705f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67d03a8cfcb4e6af477b4b541f4d2ed4') in 0.025220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/Bipolar Plane/Type_5/Animation/3.png
+  artifactKey: Guid(9f123d17b97a1d54ab891e00d9f4231c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/Bipolar Plane/Type_5/Animation/3.png using Guid(9f123d17b97a1d54ab891e00d9f4231c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f36627a280abb2c015ab752b89c3b4f8') in 0.025163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/JU-87B2/Type_1/JU87B2 -progress_4.png
+  artifactKey: Guid(e472439e5a29736409d4b85f1a47895e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/JU-87B2/Type_1/JU87B2 -progress_4.png using Guid(e472439e5a29736409d4b85f1a47895e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '07a0daefd0227360fb99aabfa81975b0') in 0.027126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/Bipolar Plane/Type_4/Animation/2.png
+  artifactKey: Guid(c825d568b36a17d449cdfe6577297c0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/Bipolar Plane/Type_4/Animation/2.png using Guid(c825d568b36a17d449cdfe6577297c0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a74770380097cfd342b1c24216562b78') in 0.021609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/JU-87B2/Type_1/Animation/2.png
+  artifactKey: Guid(0f72414c55df799409f6f42089a768a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/JU-87B2/Type_1/Animation/2.png using Guid(0f72414c55df799409f6f42089a768a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02b9a92c5aa1e32360e7e76e5b6786fe') in 0.025382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/Hawker Tempest MKII/Type_2/Hawker_type_2.png
+  artifactKey: Guid(d8603e7f5ef3fa04e92819ff45003d43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/Hawker Tempest MKII/Type_2/Hawker_type_2.png using Guid(d8603e7f5ef3fa04e92819ff45003d43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02385d7fc541468769d84edda74abafe') in 0.027877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/B-17/Type-2/Animated/1.png
+  artifactKey: Guid(bd97465a9320cf64b92e4dacfe58cd5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/B-17/Type-2/Animated/1.png using Guid(bd97465a9320cf64b92e4dacfe58cd5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9b5d7af3a8f7f6fc93157fc0485c65e') in 0.025808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/B-17/Type-1/Animation/2.png
+  artifactKey: Guid(3d3f78f2ffdb6134698b8eb43c3a6413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/B-17/Type-1/Animation/2.png using Guid(3d3f78f2ffdb6134698b8eb43c3a6413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17935869c78eb2fdaa6f8c06e0cf179a') in 0.025118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/B-17/Type-3/Animated/2.png
+  artifactKey: Guid(6ff382cf77095f643a9e4e6b41e1e3c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/B-17/Type-3/Animated/2.png using Guid(6ff382cf77095f643a9e4e6b41e1e3c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a1b895d9d03af2abcd398570b45b9e3') in 0.024966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/Bipolar Plane/Type_6/Animation/1.png
+  artifactKey: Guid(a5ab02afa8221e14e8ae3e093d121328) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/Bipolar Plane/Type_6/Animation/1.png using Guid(a5ab02afa8221e14e8ae3e093d121328) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ac0aee31fd2b43b34f90ea319b160d9') in 0.026301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/Hawker Tempest MKII/Type_3/Animation/3.png
+  artifactKey: Guid(e716dc8791b83f8478fbd5d00a7a62ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/Hawker Tempest MKII/Type_3/Animation/3.png using Guid(e716dc8791b83f8478fbd5d00a7a62ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7018dce2e6a8781cac8bd20a24bcd1fd') in 0.024244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/JU-87B2/Type_2/Animation/1.png
+  artifactKey: Guid(9665aad71ca68d14685003cbd7a4f29a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/JU-87B2/Type_2/Animation/1.png using Guid(9665aad71ca68d14685003cbd7a4f29a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e66b53b262f8571fbea55e6ffd329ec') in 0.024532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/B-17/Type-3/Animated/3.png
+  artifactKey: Guid(80f3f3b5e49a69747a6573b57a6a65e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/B-17/Type-3/Animated/3.png using Guid(80f3f3b5e49a69747a6573b57a6a65e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '10e4d7797f23723fa591baf781b57b2b') in 0.022845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/BF-109E/Type-1/Animation/1.png
+  artifactKey: Guid(ce73efa7ed119de49bc62de228a52510) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/BF-109E/Type-1/Animation/1.png using Guid(ce73efa7ed119de49bc62de228a52510) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a85aa2c498649ab4e0f8057bfad9b99') in 0.022282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/TBM3/Type_3/Animation/1.png
+  artifactKey: Guid(04b2d513be662834a9cecb17251a2d5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/TBM3/Type_3/Animation/1.png using Guid(04b2d513be662834a9cecb17251a2d5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1128730cdca68c6ec1b4125a382a9006') in 0.023235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/TBM3/Type_1/Animation/3.png
+  artifactKey: Guid(1e69902cb5c71574a83ffe3aa89bf71a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/TBM3/Type_1/Animation/3.png using Guid(1e69902cb5c71574a83ffe3aa89bf71a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c663253fe0bfd186c229769620e48296') in 0.025778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/JU-87B2/Type_2/Animation/3.png
+  artifactKey: Guid(1db5a63d3db2777419e6c588c01dc8d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/JU-87B2/Type_2/Animation/3.png using Guid(1db5a63d3db2777419e6c588c01dc8d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'daf364dd0cdc557eba5407735b2fd762') in 0.023870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/TBM3/Type_1/Animation/2.png
+  artifactKey: Guid(57b6dd02a920c4f4295a7f8a723e5c69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/TBM3/Type_1/Animation/2.png using Guid(57b6dd02a920c4f4295a7f8a723e5c69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bea2aab3c29e143b027a0608c0ded5b2') in 0.023500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/B-17/Type-1/Animation/1.png
+  artifactKey: Guid(1184c7dc8c1c0644e91baaac6f8402dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/B-17/Type-1/Animation/1.png using Guid(1184c7dc8c1c0644e91baaac6f8402dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54e646da90ae36ef5a3ec5b6d90e1369') in 0.023252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Planes/Bipolar Plane/Type_5/Animation/1.png
+  artifactKey: Guid(8d58bab46ae8f054e9fa2d52ef9ee259) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Planes/Bipolar Plane/Type_5/Animation/1.png using Guid(8d58bab46ae8f054e9fa2d52ef9ee259) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e90a1d15ad9cfa54b40da098786e5915') in 0.028307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fighter Planes Assets/Sprites/Power Ups/frame-5.png
+  artifactKey: Guid(34dba5850a7da424282043fc91d56d46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fighter Planes Assets/Sprites/Power Ups/frame-5.png using Guid(34dba5850a7da424282043fc91d56d46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69843507106c4d6e09e0fd9271ac6447') in 0.026783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
